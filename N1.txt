@@ -1,0 +1,77 @@
+
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class discountFile
+{
+    public static void main(String[] args) {
+        String filename = "discount.txt";
+
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename))) {
+            
+            
+        writer.write("      <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>\n");
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><     Hello dear customer my tour guide offers you discount codes for a better experience(:    ><>\n");
+        writer.write("      <><                                                                                              ><>\n"); 
+        writer.write("      <><                                                                                              ><>\n"); 
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><      If your destination with us is Riyadh city , these are some discounts for you           ><>\n");
+
+        writer.write("      <><                    ____________________________________________________                      ><>\n");
+        writer.write("      <><                   |           For 500 and less : RIYADH5               |                     ><>\n");
+        writer.write("      <><                   |       For Between 500 and 1000 : RIYADH10          |                     ><>\n");
+        writer.write("      <><                   |           For 1000 and more : RIYADH15             |                     ><> \n");
+        writer.write("      <><                   |____________________________________________________|                     ><>\n");
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><      If your destination with us is Jeddah city ,so these are some discounts for you         ><> \n");
+
+        writer.write("      <><                    ____________________________________________________                      ><>\n");
+        writer.write("      <><                   |           For 500 and less : JEDDAH5               |                     ><>\n");
+        writer.write("      <><                   |           Between 500 and 1000 : JEDDAH10          |                     ><>\n");
+        writer.write("      <><                   |           For 1000 and more : JEDDAH15             |                     ><> \n");
+        writer.write("      <><                   |____________________________________________________|                     ><>\n");
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><      If your destination with us is Abha city , these are some discounts for you             ><>\n");
+
+
+        writer.write("      <><                    ____________________________________________________                      ><>\n");
+        writer.write("      <><                   |           For 500 and less :ABHA5                  |                     ><>\n");
+        writer.write("      <><                   |           Between 500 and 1000 :ABHA10             |                     ><> \n");
+        writer.write("      <><                   |           For 1000 and more :ABHA15                |                     ><> \n");
+        writer.write("      <><                   |____________________________________________________|                     ><> \n");
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><      If your destination with us is the Eastern region, these are some discounts for you     ><>\n");
+
+        writer.write("      <><                    ____________________________________________________                      ><>\n");
+        writer.write("      <><                   |           For 500 and less : ER5                   |                     ><>\n");
+        writer.write("      <><                   |           Between 500 and 1000 : ER10              |                     ><>\n");
+        writer.write("      <><                   |           For 1000 and more : ER15                 |                     ><> \n");
+        writer.write("      <><                   |____________________________________________________|                     ><>\n");
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><                                                                                              ><>\n");
+        writer.write("      <><      If your destination with us is alula ,these are some discounts for you                  ><>\n");
+
+        writer.write("      <><                    ____________________________________________________                      ><>\n");
+        writer.write("      <><                   |           For 500 and less : ALULLA5               |                     ><>\n");
+        writer.write("      <><                   |           Between 500 and 1000 : ALULA10           |                     ><>\n");
+        writer.write("      <><                   |           For 1000 and more : ALULA15              |                     ><> \n");
+        writer.write("      <><                   |____________________________________________________|                     ><> \n");
+         writer.write("      <><                                                                                              ><>\n");
+         writer.write("      <><                                                                                              ><>\n");
+         writer.write("      <><                                                                                              ><>\n");
+writer.write("      <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>\n");
+
+
+
+            System.out.println("Data has been written to the file.");
+        } catch (IOException e) {
+            System.err.println("An error occurred while writing to the file: " + e.getMessage());
+        }
+    }
+}
